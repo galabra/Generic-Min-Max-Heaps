@@ -27,7 +27,7 @@ public class GenericMinHeap<T extends Comparable<T>> {
     private static final int FRONT = 1;
     
     /**
-     * T minimal is null only for the sake of generalization.
+     * T minimalElement is null only for the sake of generalization.
      * For example, for an <Integer> heap, the minimal element
 	 * would be "Integer.MIN_VALUE";
      */
